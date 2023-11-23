@@ -8,7 +8,7 @@ const Home = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-lg-8">
-          <h1 className="display-4 fw-bold">Your Name</h1>
+          <h1 className="display-4 fw-bold">Tejas Vinay P</h1>
           <p className="lead">Web Developer | Designer | Problem Solver</p>
           <hr className="my-4" />
           <p className="fs-5">
@@ -21,7 +21,7 @@ const Home = () => {
             </Link>
             <Link to="/contact" className="btn btn-secondary btn-lg">
               Contact Me
-            </Link>
+            </Link> 
           </div>
         </div>
         <div className="col-lg-4">
