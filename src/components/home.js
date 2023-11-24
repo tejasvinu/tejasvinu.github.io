@@ -8,8 +8,8 @@ const Home = () => {
     <div className="container mt-5">
       <div className="row">
         <div className="col-lg-8">
-          <h1 className="display-4 fw-bold">Your Name</h1>
-          <p className="lead">Web Developer | Designer | Problem Solver</p>
+          <h1 className="display-4 fw-bold">Tejas Viany P</h1>
+          <p className="lead">Web Developer | Tech Enthusiast | Problem Solver</p>
           <hr className="my-4" />
           <p className="fs-5">
             Welcome to my portfolio! I am a passionate web developer with a focus on creating
