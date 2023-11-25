@@ -1,7 +1,7 @@
 {
   "files": {
-    "main.css": "/tejasvinu.github.io/static/css/main.27d78b96.css",
-    "main.js": "/tejasvinu.github.io/static/js/main.688fa5c5.js",
+    "main.css": "/tejasvinu.github.io/static/css/main.7c3dd687.css",
+    "main.js": "/tejasvinu.github.io/static/js/main.d16e677f.js",
     "static/js/787.9e9f4ffd.chunk.js": "/tejasvinu.github.io/static/js/787.9e9f4ffd.chunk.js",
     "static/media/fa-solid-900.ttf": "/tejasvinu.github.io/static/media/fa-solid-900.d75e3fd1eb12e9bd6655.ttf",
     "static/media/fa-brands-400.ttf": "/tejasvinu.github.io/static/media/fa-brands-400.016b4a6cdced82ab3aa1.ttf",
@@ -12,12 +12,12 @@
     "static/media/fa-v4compatibility.ttf": "/tejasvinu.github.io/static/media/fa-v4compatibility.c6a0c95b0a95c4553700.ttf",
     "static/media/fa-v4compatibility.woff2": "/tejasvinu.github.io/static/media/fa-v4compatibility.1bac2991f3dbfa237aec.woff2",
     "index.html": "/tejasvinu.github.io/index.html",
-    "main.27d78b96.css.map": "/tejasvinu.github.io/static/css/main.27d78b96.css.map",
-    "main.688fa5c5.js.map": "/tejasvinu.github.io/static/js/main.688fa5c5.js.map",
+    "main.7c3dd687.css.map": "/tejasvinu.github.io/static/css/main.7c3dd687.css.map",
+    "main.d16e677f.js.map": "/tejasvinu.github.io/static/js/main.d16e677f.js.map",
     "787.9e9f4ffd.chunk.js.map": "/tejasvinu.github.io/static/js/787.9e9f4ffd.chunk.js.map"
   },
   "entrypoints": [
-    "static/css/main.27d78b96.css",
-    "static/js/main.688fa5c5.js"
+    "static/css/main.7c3dd687.css",
+    "static/js/main.d16e677f.js"
   ]
 }
