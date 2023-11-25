@@ -1,0 +1,132 @@
+/* Example CSS file (header.css) */
+
+header {
+    background-image: url('https://cdn.wallpapersafari.com/43/42/IwWBH3.jpg');
+    background-size: cover;  /* Make the background image responsive */
+    background-position: center;
+    padding: 10px;
+    height: 950px;
+}
+
+body {
+    margin: 0; /* Remove default margin */
+}   
+
+.header-container {
+    text-align: center; /* Center text within the container */
+}
+
+.header-text {
+    color: wheat;
+    font-size: 44px;
+    font-weight: 600;
+    position: absolute;
+    top: 50%;
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    letter-spacing: 1px;
+    text-transform: uppercase;
+    color: #fff;
+    text-shadow:
+        0 1px wheat,
+        -1px 0 #cdd2d5,
+        -1px 2px #808d93,
+        -2px 1px #cdd2d5,
+        -2px 3px #808d93,
+        -3px 2px #cdd2d5,
+        -3px 4px #808d93,
+        -4px 3px #cdd2d5,
+        -4px 5px #808d93,
+        -5px 4px #cdd2d5,
+        -5px 6px #808d93,
+        -6px 5px #cdd2d5,
+        -6px 7px #808d93,
+        -7px 6px #cdd2d5,
+        -7px 8px #808d93,
+        -8px 7px #cdd2d5;
+}
+
+.sub-header {
+    color: wheat;
+    font-size: 14px;
+    font-weight: bold;
+    position: absolute;
+    top: 60%; /* Adjust the vertical position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+    margin: 0;
+    letter-spacing: 1px;
+}
+
+.smaller-text {
+    font-size: 20px; /* Adjust the font size for the smaller text */
+    font-weight: normal; /* Adjust the font weight if needed*/
+    top: 65%; /* Adjust the vertical position */
+    left: 50%;
+    transform: translate(-50%, -50%);
+}
+
+/* Make the navigation responsive */
+.horizontal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: center; /* Center items horizontally */
+}
+
+.horizontal-list li {
+    margin-right: 20px;
+}
+
+.horizontal-list a {
+    text-decoration: none;
+    color: white;
+    font-weight: bold;
+}
+
+.horizontal-list a:hover {
+    color: #ffcc00;
+}
+
+/* Adjust the position of header text for mobile */
+@media (max-width: 767px) {
+    .header-text {
+        font-size: 28px; /* Adjust font size for mobile */
+        top: 40%;
+    }
+
+    .sub-header {
+        font-size: 12px; /* Adjust font size for mobile */
+        top: 50%; /* Adjust the vertical position for sub-header on mobile */
+    }
+
+    .smaller-text {
+        font-size: 16px; /* Adjust font size for mobile */
+        top: 55%; /* Adjust the vertical position for smaller text on mobile */
+    }
+}
+
+/* Move the navigation to the top-left */
+.horizontal-list {
+    list-style: none;
+    margin: 0;
+    padding: 0;
+    display: flex;
+    justify-content: flex-start; /* Align items to the start (left) */
+}
+
+@media (max-width: 767px) {
+    .header-text {
+        font-size: 24px; /* Adjust font size for smaller screens */
+    }
+    
+    .sub-header {
+        top: 70%; /* Adjust the vertical position for mobile */
+    }
+
+    .smaller-text {
+        top: 75%; /* Adjust the vertical position for mobile */
+    }
+}
