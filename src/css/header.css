@@ -21,7 +21,7 @@ body {
     font-size: 44px;
     font-weight: 600;
     position: absolute;
-    top: 50%;
+    top: 40%;
     left: 50%;
     transform: translate(-50%, -50%);
     margin: 0;
@@ -63,7 +63,7 @@ body {
     font-size: 20px; /* Adjust the font size for the smaller text */
     font-weight: normal; /* Adjust the font weight if needed*/
     font-family: 'Roboto', sans-serif; /* Adjust the font family if needed */
-    top: 65%; /* Adjust the vertical position */
+    top: 55%; /* Adjust the vertical position */
     left: 50%;
     transform: translate(-50%, -50%);
 }   

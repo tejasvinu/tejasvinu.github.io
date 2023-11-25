@@ -1,4 +1,5 @@
 import React from 'react';
+import {Link} from 'react-router-dom';
 import '../css/header.css';
 
 function Header() {
@@ -8,13 +9,13 @@ function Header() {
         <nav>
           <ul className='horizontal-list'>
             <li>
-              <a href="/">Home</a>
+              <Link to="/">Home</Link>
             </li>
             <li>
-              <a href="/projects">Projects</a>
+              <Link to="/projects">Projects</Link>
             </li>
             <li>
-              <a href="/contact">Contact</a>
+              <Link to="/contact">Contact Me</Link>
             </li>
           </ul>
         </nav>
