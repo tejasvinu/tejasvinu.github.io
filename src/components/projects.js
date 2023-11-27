@@ -1,24 +1,26 @@
-// src/components/Projects.js
+// Projects.js
 
 import React from 'react';
+import '../css/Projects.css'; // Import your custom CSS for styling
+import projectData from './projectData'; // Import your project data
 
 const Projects = () => {
   return (
-    <div className="container mt-5">
+    <div className="projects-container">
       <h2>My Projects</h2>
-      <div className="card">
-        <div className="card-body">
-          <h5 className="card-title">Project 1</h5>
-          <p className="card-text">Description of Project 1.</p>
-        </div>
+      <div className="project-grid">
+        {projectData.map((project, index) => (
+          <div key={index} className="project-card">
+            <div className="card-body">
+              <h5 className="card-title">{project.name}</h5>
+              <p className="card-description">{project.description}</p>
+              <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn button-53 btn-info">
+                Learn More
+              </a>
+            </div>
+          </div>
+        ))}
       </div>
-      <div className="card mt-3">
-        <div className="card-body">
-          <h5 className="card-title">Project 2</h5>
-          <p className="card-text">Description of Project 2.</p>
-        </div>
-      </div>
-      {/* Add more projects as needed */}
     </div>
   );
 };
