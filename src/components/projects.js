@@ -17,6 +17,9 @@ const Projects = () => {
               <a href={project.link} target="_blank" rel="noopener noreferrer" className="btn button-53 btn-info">
                 Learn More
               </a>
+              <a href={project.try} target="_blank" rel="noopener noreferrer" className="btn button-53 btn-info">
+                Try it
+              </a>
             </div>
           </div>
         ))}
