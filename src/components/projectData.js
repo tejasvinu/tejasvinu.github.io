@@ -8,21 +8,16 @@ const projectData = [
       link:"https://github.com/tejasvinu/ldr-brd"
     },
     {
-      name: 'Project 2',
-      description: 'Description of Project 2.',
+      name: 'My Portfolio',
+      description: 'A potfolio of all my projects and my Resume.',
+      try:"https://tejasvinu.github.io/",
+      link:"https://tejasvinu.me"
     },
     {
-        name: 'Project 2',
-        description: 'Description of Project 2.',
-    },
-    {
-        name: 'Project 2',
-        description: 'Description of Project 2.',
-    },
-    {
-        name: 'Project 2',
-        description: 'Description of Project 2.',
-    },
+      name: "aperta",
+      description: "A Proof of Concept for Blockchain Driven social media",
+      link:"https://github.com/tejasvinu/aperta"
+    }
   ];
   
   export default projectData;
